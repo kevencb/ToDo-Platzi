@@ -1,0 +1,54 @@
+<header>
+  <h1>My BookList</h1>
+  <p>All my books in one place</p>
+  <input type="text" placeholder="New book" />
+</header>
+
+<main>
+  <section>
+    <ul>
+      <li class="completed">
+        <div class="view">
+          <input type="checkbox" name="" id="" checked />
+          <label>El tablero de la reina</label>
+          <button class="destroy"></button>
+        </div>
+        <input class="edit" value="El tablero de la reina" />
+      </li>
+      <li class="">
+        <div class="view">
+          <input class="toogle" type="checkbox" name="" id="" checked />
+          <label>Parque Jurásico</label>
+          <button class="destroy"></button>
+        </div>
+        <input class="edit" value="Parque Jurásico" />
+      </li>
+      <li class="editing">
+        <div class="view">
+          <input class="toogle" type="checkbox" name="" id="" checked />
+          <label>La telaraña</label>
+          <button class="destroy"></button>
+        </div>
+        <input class="edit" value="La telaraña" />
+      </li>
+    </ul>
+  </section>
+  <footer>
+    <span><strong>0</strong> active books</span>
+    <ul class="filters">
+      <li>
+        <a routerLink="/" routerLinkActive="router-link-active">All</a>
+      </li>
+      <li>
+        <a routerLink="/" routerLinkActive="router-link-active">In reading</a>
+      </li>
+      <li>
+        <a routerLink="/" routerLinkActive="router-link-active">Completed</a>
+      </li>
+      <li>
+        <a routerLink="/" routerLinkActive="router-link-active">Wihs list</a>
+      </li>
+    </ul>
+    <button>Clear Completed</button>
+  </footer>
+</main>
