@@ -1,12 +1,13 @@
 <header class="header">
   <div class="header__title">
-    <h1>My<i class="bi bi-bookmark-heart"></i> books</h1>
-    <p>All my books in one place</p>
+    <h1>My<i class="bi bi-bookmarks"></i>books</h1>
+    <p>Your reading guide in one place</p>
   </div>
-  <!-- <input type="text" placeholder="New book" />  -->
+  <input type="text" placeholder="Add new book" />
 </header>
 
 <main class="container">
+  <span><strong>0</strong> active books</span>
   <section>
     <ul>
       <li class="completed">
@@ -36,13 +37,12 @@
     </ul>
   </section>
   <footer>
-    <span><strong>0</strong> active books</span>
     <ul class="filters">
       <li>
         <a routerLink="/" routerLinkActive="router-link-active">All</a>
       </li>
       <li>
-        <a routerLink="/" routerLinkActive="router-link-active">In reading</a>
+        <a routerLink="/" routerLinkActive="router-link-active">Reading</a>
       </li>
       <li>
         <a routerLink="/" routerLinkActive="router-link-active">Completed</a>

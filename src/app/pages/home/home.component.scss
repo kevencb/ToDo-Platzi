@@ -4,24 +4,42 @@
   color: #fff;
   padding: 3.2rem 0;
   text-align: center;
+  margin-bottom: 3.2rem;
   &__title {
+    width: 85%;
+    margin: 0 auto 3.2rem;
     display: flex;
+    flex-direction: column;
     text-align: left;
     justify-content: center;
     align-items: center;
     gap: 0.8rem;
-    // i {
-    //   font-size: 8rem;
-    // }
-
     h1 {
-      // font-weight: 300;
-      font-size: 4.8rem;
+      display: flex;
+      gap: 0.8rem;
+      font-size: 5.6rem;
     }
     p {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       font-weight: 200;
-      margin-bottom: 2rem;
+      letter-spacing: 0.2rem;
     }
+  }
+  input {
+    width: 30rem;
+    padding: 1.8rem 2.4rem 1.4rem;
+    border-radius: 5rem;
+    border: none;
+    font-size: 1.6rem;
+  }
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .filters {
+    font-size: 1.4rem;
+    display: flex;
   }
 }
