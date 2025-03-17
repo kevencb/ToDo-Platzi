@@ -3,11 +3,14 @@
     <h1>My<i class="bi bi-bookmarks"></i>books</h1>
     <p>Your reading guide in one place</p>
   </div>
-  <input type="text" placeholder="Add new book" />
 </header>
 
 <main class="container">
-  <span><strong>0</strong> active books</span>
+  <!-- <span><strong>0</strong> active books</span> -->
+  <div class="add-book">
+    <input class="add-book__input" type="text" placeholder="Add new book" />
+    <input type="add-book__submit" value="Agregar libro" />
+  </div>
   <section>
     <ul>
       <li class="completed">
@@ -48,7 +51,7 @@
         <a routerLink="/" routerLinkActive="router-link-active">Completed</a>
       </li>
       <li>
-        <a routerLink="/" routerLinkActive="router-link-active">Wihs list</a>
+        <a routerLink="/" routerLinkActive="router-link-active">Wish list</a>
       </li>
     </ul>
     <button>Clear Completed</button>
